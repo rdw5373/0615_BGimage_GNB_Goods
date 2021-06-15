@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*GNB메뉴 시작*/
+        nav#gnb {
+            border: 1px solid #aaa;
+        }
+
+        #gnb>ul#mainManu {}
+
+        #gnb a {
+            width: 150px;
+            height: 48px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 48px;
+            /*w대신p 넣기*/
+            padding: 0 24px;
+            /*글자크기 만큼 가로폭 조절*/
+            border: 1px solid #08f;
+            display: inline-block;
+            /*인라인요소로 변경*/
+        }
+
+        #gnb a:hover {
+            /*시각적 효과*/
+            color: rgba(34, 34, 34, 0.6);
+            font-weight: bold;
+        }
+
+        #gnb ul.subMenu {
+
+            background-color: #fff;
+            position: absolute;
+            display: none;
+        }  /*서브메뉴 숨기기*/
